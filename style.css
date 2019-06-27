@@ -2,7 +2,10 @@ div{
     color:red;
     font-size:40px;
 }
-
+/* .left{
+    color:red;
+    font-size:40px;
+} */
 .right{
     color:teal;
     font-size:46px;
@@ -26,7 +29,12 @@ h1#t1{
 .header > ul > li:nth-child(3){
     background-color:pink;
 }
-
+/* .header > ul > li:hover{
+    background-color:pink;
+} */
 ul>li{
     content:"hello"
 }
+/* ul::after{
+    content:"hello"
+} */

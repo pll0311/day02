@@ -53,3 +53,30 @@ a{
     border-right:1px solid #ededed;
 }
 /* 顶部导航 */
+.top_nav{
+}
+.top_nav>.wrapper::after{
+    display:block;
+    content:"";
+    clear:both;
+}
+.top_nav.logo{
+    line-height:60px;
+    float:left;
+    font-size:26px;
+    color:#279f5a;
+}
+.top_nav.nav{
+    float:left;
+    margin-left:150px;
+}
+.top_nav>li{
+    float:left;
+    width:60px;
+    text-align:center;
+    line-height:60px;
+}
+.top_nav.phone{
+    line-height:60px;
+    float:right;
+}
